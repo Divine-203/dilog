@@ -1,0 +1,53 @@
+@import url('variables.css');
+
+h1.title{
+    font-size: 36px;
+    font-weight: var(--weight-semi-bold);
+    color: var(--clr-title);
+}
+h2.title{
+    font-size: 20px;
+    color: var(--clr-title);
+}
+
+p.sm{
+    font-size: 12px;
+    color: var(--clr-naturals-200);
+}
+
+.form-cont--g{
+    width: 100%;
+    padding-top: var(--spc-12);
+    padding-bottom: var(--spc-12);
+    border-radius: var(--spc-8);
+    box-shadow: 0px 0px 22px 10px var(--clr-form-shadow);
+}
+.form-control--g{
+    height: 2.5rem;
+    width: 100%;
+    border: var(--spc-0);
+    border-radius: var(--spc-4);
+    background: var(--clr-form-bg);
+    color: var(--clr-form-txt);
+    font-size: 11px;
+    padding-left: var(--spc-16);
+}
+.form-cont--g .btn{
+    width: 100%;
+}
+
+.btn{
+    border-radius: 4px;
+    padding: .6rem 1rem;
+}
+.btn-primary {
+    font-size: 11px;
+    background: var(--clr-primary);
+    border-color: var(--clr-primary);
+}
+.btn-secondary {
+    font-size: 11px;
+    background: var(--clr-naturals-100);
+    color: var(--clr-primary);
+    border-color: var(--clr-primary);
+}

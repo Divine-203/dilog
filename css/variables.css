@@ -1,0 +1,50 @@
+body{
+    font-family: poppins;
+    overflow-x: hidden;
+    background: var(--clr-naturals-100);
+
+    --clr-primary: #1A6EFC;
+    --clr-naturals-100: #fff;
+    --clr-naturals-200: #000;
+    --clr-title: rgb(0, 0, 0);
+    --clr-form-shadow: rgba(0, 0, 0, 0.13);
+    --clr-form-bg: #E4E7FF;
+    --clr-form-txt: #6A6A6A;
+    --clr-feed-bg: #fff;
+}
+
+body.dark{
+    --clr-naturals-100: rgb(12, 12, 22);
+    --clr-title: rgb(210, 206, 206);
+    --clr-naturals-200: #fff;
+    --clr-form-shadow: rgba(0, 0, 0, 0.437);
+    --clr-form-bg: rgba(0, 0, 0, 0.634);
+    --clr-form-txt: #ffffff;
+    --clr-feed-bg: rgb(4, 6, 11);
+}
+:root {
+
+     
+    --weight-medium: 500;
+    --weight-semi-bold: 600;
+    --weight-bold: 800;
+    
+    --spc-0: 0px;
+    --spc-2: 2px;
+    --spc-4: 4px;
+    --spc-8: 8px;
+    --spc-10: 10px;
+    --spc-12: 12px;
+    --spc-14: 14px;
+    --spc-16: 16px;
+    --spc-20: 20px;
+    --spc-24: 24px;
+    --spc-28: 28px;
+    --spc-32: 32px;
+    --spc-36: 36px;
+    --spc-40: 40px;
+    --spc-48: 48px;
+    --spc-56: 56px;
+    --spc-64: 64px; 
+   
+}

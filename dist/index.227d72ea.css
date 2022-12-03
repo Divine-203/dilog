@@ -1,0 +1,81 @@
+:root {
+  --clr-primary: #1a6efc;
+  --clr-naturals-100: #fff;
+  --clr-naturals-200: #000;
+  --weight-medium: 500;
+  --weight-semi-bold: 600;
+  --weight-bold: 800;
+  --spc-0: 0px;
+  --spc-2: 2px;
+  --spc-4: 4px;
+  --spc-8: 8px;
+  --spc-10: 10px;
+  --spc-12: 12px;
+  --spc-14: 14px;
+  --spc-16: 16px;
+  --spc-20: 20px;
+  --spc-24: 24px;
+  --spc-28: 28px;
+  --spc-32: 32px;
+  --spc-36: 36px;
+  --spc-40: 40px;
+  --spc-48: 48px;
+  --spc-56: 56px;
+  --spc-64: 64px;
+}
+
+h1.title {
+  font-size: 36px;
+  font-weight: var(--weight-semi-bold);
+}
+
+h2.title {
+  font-size: 20px;
+}
+
+p.sm {
+  font-size: 12px;
+}
+
+.form-cont--g {
+  width: 100%;
+  padding-top: var(--spc-12);
+  padding-bottom: var(--spc-12);
+  border-radius: var(--spc-8);
+  box-shadow: 0 0 22px 10px #00000021;
+}
+
+.form-control--g {
+  height: 2.5rem;
+  width: 100%;
+  border: var(--spc-0);
+  border-radius: var(--spc-4);
+  color: #6a6a6a;
+  padding-left: var(--spc-16);
+  background: #e4e7ff;
+  font-size: 11px;
+}
+
+.form-cont--g .btn {
+  width: 100%;
+}
+
+.btn {
+  border-radius: 4px;
+  padding: .6rem 1rem;
+}
+
+.btn-primary {
+  background: var(--clr-primary);
+  border-color: var(--clr-primary);
+  font-size: 11px;
+}
+
+.btn-secondary {
+  background: var(--clr-naturals-100);
+  color: var(--clr-primary);
+  border-color: var(--clr-primary);
+  font-size: 11px;
+}
+
+/*# sourceMappingURL=index.227d72ea.css.map */
